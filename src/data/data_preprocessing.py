@@ -6,6 +6,9 @@ import pandas as pd
 import nltk
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
+
 from logger import setup_logger  
 
 logger = setup_logger("TextPreprocessing", "logs/text_preprocessing.log")

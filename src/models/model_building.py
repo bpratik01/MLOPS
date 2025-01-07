@@ -5,7 +5,9 @@ import pickle
 from xgboost import XGBClassifier
 import yaml
 from typing import Tuple
-from logger import setup_logger  # Assuming setup_logger is defined in the logger module
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
+from logger import setup_logger  
 
 # Setup logger
 logger = setup_logger("ModelBuilding", "logs/model_building.log")

@@ -2,6 +2,9 @@ import os
 import pandas as pd
 from sklearn.model_selection import train_test_split
 import yaml
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
+
 from logger import setup_logger
 
 # Set up logger

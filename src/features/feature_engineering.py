@@ -4,7 +4,10 @@ import numpy as np
 import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 import yaml
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
 from logger import setup_logger  
+
 
 # Setup logger
 logger = setup_logger("FeatureEngineering", "logs/feature_engineering.log")
