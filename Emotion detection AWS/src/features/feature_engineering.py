@@ -2,7 +2,7 @@ import os
 from typing import Tuple
 import numpy as np
 import pandas as pd
-from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer
 import yaml
 import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
@@ -47,7 +47,7 @@ def prepare_features(
     """Prepare bag-of-words features for the training and test data."""
     logger.info(f"Preparing features with max_features={max_features}")
     
-    vectorizer = CountVectorizer(max_features=max_features)
+    vectorizer = TfidfVectorizer(max_features=max_features)
     
     # Extract features and labels
     X_train = train_data["content"].values
@@ -57,11 +57,11 @@ def prepare_features(
     
     # Fit and transform training data
     logger.info("Fitting and transforming training data")
-    X_train_bow = vectorizer.fit_transform(X_train)
+    X_train_tfidf = vectorizer.fit_transform(X_train)
     logger.info("Transforming test data")
-    X_test_bow = vectorizer.transform(X_test)
+    X_test_tfidf = vectorizer.transform(X_test)
     
-    return X_train_bow.toarray(), y_train, X_test_bow.toarray(), y_test
+    return X_train_tfidf.toarray(), y_train, X_test_tfidf.toarray(), y_test
 
 
 def save_features(
@@ -79,13 +79,13 @@ def save_features(
     # Save training features and labels
     train_df = pd.DataFrame(X_train)
     train_df["label"] = y_train
-    train_df.to_csv(os.path.join(output_dir, "train_bow.csv"), index=False)
+    train_df.to_csv(os.path.join(output_dir, "train_tfidf.csv"), index=False)
     logger.info(f"Training features saved to {output_dir}/train_bow.csv")
     
     # Save testing features and labels
     test_df = pd.DataFrame(X_test)
     test_df["label"] = y_test
-    test_df.to_csv(os.path.join(output_dir, "test_bow.csv"), index=False)
+    test_df.to_csv(os.path.join(output_dir, "test_tfidf.csv"), index=False)
     logger.info(f"Test features saved to {output_dir}/test_bow.csv")
 
 

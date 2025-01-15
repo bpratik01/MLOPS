@@ -62,7 +62,7 @@ def main():
     logger.info("Starting model building pipeline")
     
     params_path = "params.yaml"
-    data_path = "data/features/train_bow.csv"
+    data_path = "data/features/train_tfidf.csv"
     model_path = "models/xgboost_model.pkl"
 
     params = load_params(params_path)

@@ -65,7 +65,7 @@ def save_metrics(metrics: Dict[str, float], output_path: str) -> None:
 def main():
     logger.info("Starting model evaluation pipeline")
     
-    data_path = "data/features/test_bow.csv"
+    data_path = "data/features/test_tfidf.csv"
     model_path = "models/xgboost_model.pkl"
     metrics_path = "metrics.json"
 
