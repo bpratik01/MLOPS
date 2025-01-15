@@ -1,0 +1,102 @@
+schema: '2.0'
+stages:
+  data_ingestion:
+    cmd: python src/data/data_ingestion.py
+    deps:
+    - path: src/data/data_ingestion.py
+      hash: md5
+      md5: f667c24336523938550e82c9ddd7001b
+      size: 2636
+    params:
+      params.yaml:
+        data_ingestion.test_size: 0.01
+    outs:
+    - path: data/raw
+      hash: md5
+      md5: b7b7c3ffcb572cc623ebb8516b2b43f8.dir
+      size: 4596183
+      nfiles: 3
+  data_processing:
+    cmd: python src/data/data_preprocessing.py
+    deps:
+    - path: data/raw
+      hash: md5
+      md5: b7b7c3ffcb572cc623ebb8516b2b43f8.dir
+      size: 4596183
+      nfiles: 3
+    - path: src/data/data_preprocessing.py
+      hash: md5
+      md5: 7d52bbb522ab020ed3f83833ab1536cf
+      size: 3673
+    outs:
+    - path: data/processed
+      hash: md5
+      md5: 402a5e35f77db8aed4075b2c20dd3c0f.dir
+      size: 528825
+      nfiles: 2
+  feature_engineering:
+    cmd: python src/features/feature_engineering.py
+    deps:
+    - path: data/processed
+      hash: md5
+      md5: 402a5e35f77db8aed4075b2c20dd3c0f.dir
+      size: 528825
+      nfiles: 2
+    - path: src/features/feature_engineering.py
+      hash: md5
+      md5: cc756bb7354c99232f8447e1b153bcbd
+      size: 3875
+    params:
+      params.yaml:
+        feature_engineering.max_features: 5000
+    outs:
+    - path: data/features
+      hash: md5
+      md5: 6a2d10d9d8d148c09642cea35d4d2856.dir
+      size: 97997170
+      nfiles: 2
+  model_building:
+    cmd: python src/models/model_building.py
+    deps:
+    - path: data/features
+      hash: md5
+      md5: 6a2d10d9d8d148c09642cea35d4d2856.dir
+      size: 97997170
+      nfiles: 2
+    - path: src/models/model_building.py
+      hash: md5
+      md5: 731341f00fc60e4b4e5618d587270680
+      size: 2699
+    params:
+      params.yaml:
+        model_building.eval_metric: mlogloss
+        model_building.learning_rate: 0.01
+        model_building.max_depth: 3
+        model_building.n_estimators: 100
+        model_building.use_label_encoder: false
+    outs:
+    - path: models/xgboost_model.pkl
+      hash: md5
+      md5: bde49002c7911c566bf3d782a51ae9fb
+      size: 112509
+  model_eval:
+    cmd: python src/models/model_eval.py
+    deps:
+    - path: data/features
+      hash: md5
+      md5: 6a2d10d9d8d148c09642cea35d4d2856.dir
+      size: 97997170
+      nfiles: 2
+    - path: src/models/model_building.py
+      hash: md5
+      md5: 731341f00fc60e4b4e5618d587270680
+      size: 2699
+    - path: src/models/model_eval.py
+      hash: md5
+      md5: c96660836465ae8782d57d8bf3d9d5f3
+      size: 2711
+    outs:
+    - path: metrics.json
+      hash: md5
+      md5: e35425137aacf2d67eb5375e247b8a1c
+      size: 161
