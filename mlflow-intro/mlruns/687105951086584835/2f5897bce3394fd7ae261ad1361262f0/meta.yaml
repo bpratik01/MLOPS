@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/ML-OPS/mlflow-intro/mlruns/687105951086584835/2f5897bce3394fd7ae261ad1361262f0/artifacts
+end_time: 1737123832082
+entry_point_name: ''
+experiment_id: '687105951086584835'
+lifecycle_stage: active
+run_id: 2f5897bce3394fd7ae261ad1361262f0
+run_name: decision_tree
+run_uuid: 2f5897bce3394fd7ae261ad1361262f0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737123831982
+status: 3
+tags: []
+user_id: prati

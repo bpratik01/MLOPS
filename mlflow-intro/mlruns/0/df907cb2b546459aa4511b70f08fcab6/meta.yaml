@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/df907cb2b546459aa4511b70f08fcab6/artifacts
+end_time: 1737123029799
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: df907cb2b546459aa4511b70f08fcab6
+run_name: trusting-asp-897
+run_uuid: df907cb2b546459aa4511b70f08fcab6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737123029659
+status: 3
+tags: []
+user_id: prati

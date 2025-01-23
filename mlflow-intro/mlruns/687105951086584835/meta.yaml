@@ -1,0 +1,6 @@
+artifact_location: file:///E:/ML-OPS/mlflow-intro/mlruns/687105951086584835
+creation_time: 1737123642404
+experiment_id: '687105951086584835'
+last_update_time: 1737123642404
+lifecycle_stage: active
+name: iris-dt

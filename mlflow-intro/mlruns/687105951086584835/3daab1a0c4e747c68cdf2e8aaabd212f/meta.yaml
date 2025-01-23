@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/ML-OPS/mlflow-intro/mlruns/687105951086584835/3daab1a0c4e747c68cdf2e8aaabd212f/artifacts
+end_time: 1737123670001
+entry_point_name: ''
+experiment_id: '687105951086584835'
+lifecycle_stage: active
+run_id: 3daab1a0c4e747c68cdf2e8aaabd212f
+run_name: adaptable-bee-777
+run_uuid: 3daab1a0c4e747c68cdf2e8aaabd212f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737123669947
+status: 3
+tags: []
+user_id: prati

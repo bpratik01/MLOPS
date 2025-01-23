@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/83798887eb5746f184eb28cad1025fa5/artifacts
+end_time: 1737123041919
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 83798887eb5746f184eb28cad1025fa5
+run_name: glamorous-lamb-23
+run_uuid: 83798887eb5746f184eb28cad1025fa5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737123041800
+status: 3
+tags: []
+user_id: prati

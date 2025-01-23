@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/ML-OPS/mlflow-intro/mlruns/687105951086584835/d57df57bc1914ed0859d7416937f7acf/artifacts
+end_time: 1737123643072
+entry_point_name: ''
+experiment_id: '687105951086584835'
+lifecycle_stage: active
+run_id: d57df57bc1914ed0859d7416937f7acf
+run_name: legendary-whale-623
+run_uuid: d57df57bc1914ed0859d7416937f7acf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737123642983
+status: 3
+tags: []
+user_id: prati

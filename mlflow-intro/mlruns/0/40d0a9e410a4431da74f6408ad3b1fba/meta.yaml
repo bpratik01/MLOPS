@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/40d0a9e410a4431da74f6408ad3b1fba/artifacts
+end_time: 1737122986914
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 40d0a9e410a4431da74f6408ad3b1fba
+run_name: secretive-slug-839
+run_uuid: 40d0a9e410a4431da74f6408ad3b1fba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737122986835
+status: 3
+tags: []
+user_id: prati
