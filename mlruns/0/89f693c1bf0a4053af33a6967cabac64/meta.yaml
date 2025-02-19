@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/89f693c1bf0a4053af33a6967cabac64/artifacts
+end_time: 1739977111478
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 89f693c1bf0a4053af33a6967cabac64
+run_name: Candidate Experiment 30
+run_uuid: 89f693c1bf0a4053af33a6967cabac64
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739977111368
+status: 3
+tags: []
+user_id: prati

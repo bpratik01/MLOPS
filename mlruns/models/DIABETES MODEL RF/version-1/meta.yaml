@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1739977203378
+current_stage: Staging
+description: A RF MODEL TRAINED ON PIMA INDIAN DSET
+last_updated_timestamp: 1739977472802
+name: DIABETES MODEL RF
+run_id: a76c9f178a6842fcb9410fe0a692e0b6
+run_link: ''
+source: mlflow-artifacts:/0/a76c9f178a6842fcb9410fe0a692e0b6/artifacts/best_model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/0/a76c9f178a6842fcb9410fe0a692e0b6/artifacts/best_model
+user_id: null
+version: 1
