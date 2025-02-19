@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/ML-OPS/Advanced%20MLflow/HyperParameter%20Tuning/mlruns/566453072638907673/84f3b2ec943e4a9b86180737a730d2ba/artifacts
+end_time: 1737710586033
+entry_point_name: ''
+experiment_id: '566453072638907673'
+lifecycle_stage: active
+run_id: 84f3b2ec943e4a9b86180737a730d2ba
+run_name: traveling-elk-117
+run_uuid: 84f3b2ec943e4a9b86180737a730d2ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737710559462
+status: 3
+tags: []
+user_id: prati

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/264613967617081856/a7d6e596a00745bb83d499a28718c675/artifacts
+end_time: 1737710927615
+entry_point_name: ''
+experiment_id: '264613967617081856'
+lifecycle_stage: active
+run_id: a7d6e596a00745bb83d499a28718c675
+run_name: defiant-deer-659
+run_uuid: a7d6e596a00745bb83d499a28718c675
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737710926792
+status: 4
+tags: []
+user_id: prati

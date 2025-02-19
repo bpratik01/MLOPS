@@ -1,0 +1,13 @@
+digest: 9da146b4
+name: dataset
+profile: '{"num_rows": 614, "num_elements": 5526}'
+schema: '{"mlflow_colspec": [{"type": "long", "name": "Pregnancies", "required": true},
+  {"type": "long", "name": "Glucose", "required": true}, {"type": "long", "name":
+  "BloodPressure", "required": true}, {"type": "long", "name": "SkinThickness", "required":
+  true}, {"type": "long", "name": "Insulin", "required": true}, {"type": "double",
+  "name": "BMI", "required": true}, {"type": "double", "name": "DiabetesPedigreeFunction",
+  "required": true}, {"type": "long", "name": "Age", "required": true}, {"type": "long",
+  "name": "Outcome", "required": true}]}'
+source: '{"tags": {"mlflow.user": "prati", "mlflow.source.name": ".\\best_param_log.py",
+  "mlflow.source.type": "LOCAL", "mlflow.source.git.commit": "c66a646b7827496c46404a4f34c7251e39af7de7"}}'
+source_type: code

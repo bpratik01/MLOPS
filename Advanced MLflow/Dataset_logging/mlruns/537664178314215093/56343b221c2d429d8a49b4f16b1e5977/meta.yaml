@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/ML-OPS/Advanced%20MLflow/AutoLogging/mlruns/537664178314215093/56343b221c2d429d8a49b4f16b1e5977/artifacts
+end_time: 1737707758624
+entry_point_name: ''
+experiment_id: '537664178314215093'
+lifecycle_stage: active
+run_id: 56343b221c2d429d8a49b4f16b1e5977
+run_name: rf_iris_md=5_ne=100
+run_uuid: 56343b221c2d429d8a49b4f16b1e5977
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737707734001
+status: 3
+tags: []
+user_id: prati

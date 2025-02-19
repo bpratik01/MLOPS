@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/482379992215857222/6faab4088ae14e4e9744876ab4125fb9/artifacts
+end_time: 1737711101133
+entry_point_name: ''
+experiment_id: '482379992215857222'
+lifecycle_stage: active
+run_id: 6faab4088ae14e4e9744876ab4125fb9
+run_name: salty-hog-850
+run_uuid: 6faab4088ae14e4e9744876ab4125fb9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737711003333
+status: 3
+tags: []
+user_id: prati

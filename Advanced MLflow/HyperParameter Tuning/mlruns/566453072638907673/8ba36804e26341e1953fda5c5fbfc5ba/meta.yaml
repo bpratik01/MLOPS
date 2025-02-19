@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/ML-OPS/Advanced%20MLflow/HyperParameter%20Tuning/mlruns/566453072638907673/8ba36804e26341e1953fda5c5fbfc5ba/artifacts
+end_time: 1737710470634
+entry_point_name: ''
+experiment_id: '566453072638907673'
+lifecycle_stage: active
+run_id: 8ba36804e26341e1953fda5c5fbfc5ba
+run_name: incongruous-worm-135
+run_uuid: 8ba36804e26341e1953fda5c5fbfc5ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737710451658
+status: 4
+tags: []
+user_id: prati

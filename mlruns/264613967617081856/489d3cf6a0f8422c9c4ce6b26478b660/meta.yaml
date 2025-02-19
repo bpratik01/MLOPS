@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/264613967617081856/489d3cf6a0f8422c9c4ce6b26478b660/artifacts
+end_time: 1737710753627
+entry_point_name: ''
+experiment_id: '264613967617081856'
+lifecycle_stage: active
+run_id: 489d3cf6a0f8422c9c4ce6b26478b660
+run_name: likeable-gull-336
+run_uuid: 489d3cf6a0f8422c9c4ce6b26478b660
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737710726344
+status: 3
+tags: []
+user_id: prati
