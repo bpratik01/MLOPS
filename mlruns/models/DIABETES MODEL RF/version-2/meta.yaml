@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1739978510622
+current_stage: None
+description: ''
+last_updated_timestamp: 1739978510622
+name: DIABETES MODEL RF
+run_id: 8178014d4b804af5af0590086e1635de
+run_link: ''
+source: mlflow-artifacts:/0/8178014d4b804af5af0590086e1635de/artifacts/best_model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/0/8178014d4b804af5af0590086e1635de/artifacts/best_model
+user_id: null
+version: 2
